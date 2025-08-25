@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subclases_01</title>
+</head>
+<body>
+    <script>
+        // CLASE
+        class Deportista {
+            constructor(nombre, apellido){
+                this.nombre = nombre;
+                this.apellido = apellido;
+            }
+        }
+        
+         // SUB-CLASE
+        class Futbolista extends Deportista {
+            constructor (nombre, apellido, goles){
+                super (nombre, apellido);
+                this._goles = goles;
+            }
+            get goles(){
+                return this.goles;
+            }
+            set goles (nuevoGoles){
+                this._goles = nuevoGoles;
+            }
+            
+        }
+
+    </script>
+</body>
+</html>
