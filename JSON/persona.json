@@ -1,0 +1,13 @@
+{
+    "nombre": "Flavio Rivero",
+    "edad": 29,
+    "estudiante": true,
+    "direccion": {
+        "calle": "Itaqui no. 6159",
+        "ciudad": "Ciudad Autonoma de Buenos Aires"
+    },
+    "telefonos": [
+        "11-4086-5394",
+        "11-6940-9006"
+    ]
+}
